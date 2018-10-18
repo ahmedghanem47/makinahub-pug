@@ -1,0 +1,43 @@
+.hf-text {
+  font-size: 18px;
+  font-family: "Lato";
+  text-decoration: none;
+
+}
+
+.label-text {
+  font-size: 17px;
+  font-family: "Lato";
+
+}
+.placeholder-text {
+  font-size: 15px;
+  font-family: "Lato";
+
+}
+
+.secondary-header-text {
+  font-size: 50px;
+  font-family: "Nexa Light";
+  
+}
+.main-header-text {
+  font-size: 60px;
+  font-family: "Nexa Bold";
+  text-align: center;
+}
+.paragraph {
+ color: #7e7e7e;
+}
+.black{
+  color: rgb(21, 33, 59);
+}
+.white{
+  color: rgb(255, 255, 255);
+}
+.grey{
+    color: rgb(126, 126, 126);
+}
+.light-grey{
+    color: rgba(126, 126, 126, 0.549);
+}

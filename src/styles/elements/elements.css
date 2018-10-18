@@ -1,0 +1,171 @@
+.header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+}
+.header h1 {
+    float: left;
+    margin: 0;
+}
+.header-logo {
+    vertical-align: middle;
+    height: 50px;
+}
+.header__user-area {
+    float: right;
+}
+.cover {
+    background-image: url("../images/cover.png");
+    background-size: cover;
+    height: 200px;
+}
+.header-center {
+    text-align: center;
+}
+.header__order--list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header__order--list li {
+    display: inline-block;
+}
+.header__order--list li + li {
+    margin-left: 40px;
+}
+.hf-text:hover {
+    color: #f3f908;
+}
+.section-information {
+ margin-left: 150px;
+ height: 1100px;
+}
+.section-information h1::after {
+    content: ">";
+    display: block;
+    font-size: 20px;
+}
+
+.personal-information {
+    display: inline-block;
+    width: 380px;
+
+}
+.personal-information input {
+    width: 350px;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;  
+}
+input[type=date]::-webkit-calendar-picker-indicator { display: none; }
+
+.personal-information label {
+    padding: 5px;
+}
+.billing-address {
+    display: inline-block;
+    width: 380px;
+}
+.billing-address input {
+    width: 350px;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+}
+.billing-address label {
+    padding: 5px;
+}
+.billing-address input::-webkit-input-placeholder {
+    font-size: 15px;
+    font-family: "Lato";
+    color: #bfbfbf;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    line-height: 50px;
+    background: #f6f6f7;
+}
+.footer ul {
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+}
+.footer-right {
+    display: inline-block;
+    text-align: right;
+}
+.footer li {
+    width: 30%;
+    display: inline-block;
+}
+.footer p {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: #15213b;
+    padding: 5px;
+}
+.footer a:nth-child(1)::after {
+    content: "|";
+    margin-left: 10px;
+    color: #15213b;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

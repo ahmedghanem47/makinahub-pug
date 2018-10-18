@@ -1,0 +1,53 @@
+section.section-information
+    h1.secondary-header-text.black Personal information
+    form(action="#" method="post")
+        .personal-information
+         label(for="user_name" class="label-text light-grey") User Name
+         input(type="text" id="user_name" required)
+        .personal-information
+         label(for="per_email" class="label-text light-grey") Email Address
+         input(type="email" id="per_email" required)
+        .personal-information
+         label(for="contact_num" class="label-text light-grey") Contact Number
+         input(type="number" id="contact_num" required)
+        .personal-information
+         label(for="old_password" class="label-text light-grey") Old Password
+         input(type="password" id="old_password" required)
+        .personal-information
+         label(for="new_password" class="label-text light-grey") New Password
+         input(type="password" id="new_password" required)
+        .personal-information
+         label(for="confirm_new_password" class="label-text light-grey") Confirm New Password
+         input(type="password" id="confirm_new_password" required)
+        div
+          button.btn.btn-solid.btn-sm Save Changes
+          button.btn.btn-border.btn-sm Cancel
+    h1.secondary-header-text.black  Billing Information
+    form(action="#" method="post")
+        .billing-address
+         label(for="full_name" class="label-text light-grey" ) Full Name
+         input(type="text" id="full_name" required) 
+        .billing-address
+         label(for="address" class="label-text light-grey") Billing Address
+         input(type="text" id="address" required) 
+        .billing-address
+         label(for="email" class="label-text light-grey") Billing Email
+         input(type="email" id="email" placeholder="example@email.com" required)
+        .billing-address
+         label(for="bank_account" class="label-text light-grey") Bank Account(For Chaque Payment)
+         input(type="number" id="bank_account" required)
+        .billing-address
+         label(for="visa_number" class="label-text light-grey") Visa Number 
+         input(type="number" id="Visa Number" required)
+        .billing-address
+         label(for="expiry_date" class="label-text light-grey") Expiry Date 
+         input(type="Date" id="expiry_date" required)
+        .billing-address
+         label(for="csv" class="label-text light-grey") CSV
+         input(type="number" id="csv" required)
+        div
+         button.btn.btn-solid.btn-sm Save Changes
+         button.btn.btn-border.btn-sm Cancel
+    h1.secondary-header-text.black  Log Out
+    p.paragraph Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    button.btn.btn-solid.btn-sm Log Out
